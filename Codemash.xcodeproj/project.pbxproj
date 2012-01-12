@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70543DA14BE91C100400E56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70543D914BE91C100400E56 /* UIKit.framework */; };
+		D70543DC14BE91C100400E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70543DB14BE91C100400E56 /* Foundation.framework */; };
+		D70543DE14BE91C100400E56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70543DD14BE91C100400E56 /* CoreGraphics.framework */; };
+		D70543E414BE91C100400E56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D70543E214BE91C100400E56 /* InfoPlist.strings */; };
+		D70543E614BE91C100400E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70543E514BE91C100400E56 /* main.m */; };
+		D70543EA14BE91C100400E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70543E914BE91C100400E56 /* AppDelegate.m */; };
+		D70543EF14BE91C100400E56 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D70543EE14BE91C100400E56 /* first.png */; };
+		D70543F114BE91C100400E56 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D70543F014BE91C100400E56 /* first@2x.png */; };
+		D70543F414BE91C100400E56 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70543F314BE91C100400E56 /* SecondViewController.m */; };
+		D70543F614BE91C100400E56 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D70543F514BE91C100400E56 /* second.png */; };
+		D70543F814BE91C100400E56 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D70543F714BE91C100400E56 /* second@2x.png */; };
+		D70543FE14BE91C100400E56 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70543FC14BE91C100400E56 /* SecondViewController.xib */; };
+		D705440D14BE994100400E56 /* FruitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D705440B14BE994100400E56 /* FruitTableViewController.m */; };
+		D705440E14BE994100400E56 /* FruitTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D705440C14BE994100400E56 /* FruitTableViewController.xib */; };
+		D705441514BE9EA400400E56 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D705441014BE9EA400400E56 /* apple.jpg */; };
+		D705441614BE9EA400400E56 /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D705441114BE9EA400400E56 /* banana.jpg */; };
+		D705441714BE9EA400400E56 /* kiwi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D705441214BE9EA400400E56 /* kiwi.jpg */; };
+		D705441814BE9EA400400E56 /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D705441314BE9EA400400E56 /* orange.jpg */; };
+		D705441914BE9EA400400E56 /* watermelon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D705441414BE9EA400400E56 /* watermelon.jpg */; };
+		D705441D14BEA08600400E56 /* FruitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D705441B14BEA08500400E56 /* FruitDetailViewController.m */; };
+		D705441E14BEA08600400E56 /* FruitDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D705441C14BEA08500400E56 /* FruitDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D70543D514BE91C100400E56 /* Codemash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codemash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70543D914BE91C100400E56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D70543DB14BE91C100400E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D70543DD14BE91C100400E56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D70543E114BE91C100400E56 /* Codemash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Codemash-Info.plist"; sourceTree = "<group>"; };
+		D70543E314BE91C100400E56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D70543E514BE91C100400E56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D70543E714BE91C100400E56 /* Codemash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Codemash-Prefix.pch"; sourceTree = "<group>"; };
+		D70543E814BE91C100400E56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D70543E914BE91C100400E56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D70543EE14BE91C100400E56 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D70543F014BE91C100400E56 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D70543F214BE91C100400E56 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D70543F314BE91C100400E56 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D70543F514BE91C100400E56 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D70543F714BE91C100400E56 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D70543FD14BE91C100400E56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		D705440A14BE994100400E56 /* FruitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitTableViewController.h; sourceTree = "<group>"; };
+		D705440B14BE994100400E56 /* FruitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitTableViewController.m; sourceTree = "<group>"; };
+		D705440C14BE994100400E56 /* FruitTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FruitTableViewController.xib; sourceTree = "<group>"; };
+		D705441014BE9EA400400E56 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		D705441114BE9EA400400E56 /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+		D705441214BE9EA400400E56 /* kiwi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi.jpg; sourceTree = "<group>"; };
+		D705441314BE9EA400400E56 /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
+		D705441414BE9EA400400E56 /* watermelon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watermelon.jpg; sourceTree = "<group>"; };
+		D705441A14BEA08500400E56 /* FruitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitDetailViewController.h; sourceTree = "<group>"; };
+		D705441B14BEA08500400E56 /* FruitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitDetailViewController.m; sourceTree = "<group>"; };
+		D705441C14BEA08500400E56 /* FruitDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FruitDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70543D214BE91C100400E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70543DA14BE91C100400E56 /* UIKit.framework in Frameworks */,
+				D70543DC14BE91C100400E56 /* Foundation.framework in Frameworks */,
+				D70543DE14BE91C100400E56 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D70543CA14BE91C100400E56 = {
+			isa = PBXGroup;
+			children = (
+				D70543DF14BE91C100400E56 /* Codemash */,
+				D70543D814BE91C100400E56 /* Frameworks */,
+				D70543D614BE91C100400E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D70543D614BE91C100400E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70543D514BE91C100400E56 /* Codemash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70543D814BE91C100400E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D70543D914BE91C100400E56 /* UIKit.framework */,
+				D70543DB14BE91C100400E56 /* Foundation.framework */,
+				D70543DD14BE91C100400E56 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70543DF14BE91C100400E56 /* Codemash */ = {
+			isa = PBXGroup;
+			children = (
+				D705440F14BE9E7F00400E56 /* Image Files */,
+				D70543E814BE91C100400E56 /* AppDelegate.h */,
+				D70543E914BE91C100400E56 /* AppDelegate.m */,
+				D70543EE14BE91C100400E56 /* first.png */,
+				D70543F014BE91C100400E56 /* first@2x.png */,
+				D70543F214BE91C100400E56 /* SecondViewController.h */,
+				D70543F314BE91C100400E56 /* SecondViewController.m */,
+				D70543F514BE91C100400E56 /* second.png */,
+				D70543F714BE91C100400E56 /* second@2x.png */,
+				D70543FC14BE91C100400E56 /* SecondViewController.xib */,
+				D70543E014BE91C100400E56 /* Supporting Files */,
+				D705440A14BE994100400E56 /* FruitTableViewController.h */,
+				D705440B14BE994100400E56 /* FruitTableViewController.m */,
+				D705440C14BE994100400E56 /* FruitTableViewController.xib */,
+				D705441A14BEA08500400E56 /* FruitDetailViewController.h */,
+				D705441B14BEA08500400E56 /* FruitDetailViewController.m */,
+				D705441C14BEA08500400E56 /* FruitDetailViewController.xib */,
+			);
+			path = Codemash;
+			sourceTree = "<group>";
+		};
+		D70543E014BE91C100400E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D70543E114BE91C100400E56 /* Codemash-Info.plist */,
+				D70543E214BE91C100400E56 /* InfoPlist.strings */,
+				D70543E514BE91C100400E56 /* main.m */,
+				D70543E714BE91C100400E56 /* Codemash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D705440F14BE9E7F00400E56 /* Image Files */ = {
+			isa = PBXGroup;
+			children = (
+				D705441014BE9EA400400E56 /* apple.jpg */,
+				D705441114BE9EA400400E56 /* banana.jpg */,
+				D705441214BE9EA400400E56 /* kiwi.jpg */,
+				D705441314BE9EA400400E56 /* orange.jpg */,
+				D705441414BE9EA400400E56 /* watermelon.jpg */,
+			);
+			name = "Image Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70543D414BE91C100400E56 /* Codemash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D705440114BE91C100400E56 /* Build configuration list for PBXNativeTarget "Codemash" */;
+			buildPhases = (
+				D70543D114BE91C100400E56 /* Sources */,
+				D70543D214BE91C100400E56 /* Frameworks */,
+				D70543D314BE91C100400E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codemash;
+			productName = Codemash;
+			productReference = D70543D514BE91C100400E56 /* Codemash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70543CC14BE91C100400E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D70543CF14BE91C100400E56 /* Build configuration list for PBXProject "Codemash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D70543CA14BE91C100400E56;
+			productRefGroup = D70543D614BE91C100400E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70543D414BE91C100400E56 /* Codemash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D70543D314BE91C100400E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70543E414BE91C100400E56 /* InfoPlist.strings in Resources */,
+				D70543EF14BE91C100400E56 /* first.png in Resources */,
+				D70543F114BE91C100400E56 /* first@2x.png in Resources */,
+				D70543F614BE91C100400E56 /* second.png in Resources */,
+				D70543F814BE91C100400E56 /* second@2x.png in Resources */,
+				D70543FE14BE91C100400E56 /* SecondViewController.xib in Resources */,
+				D705440E14BE994100400E56 /* FruitTableViewController.xib in Resources */,
+				D705441514BE9EA400400E56 /* apple.jpg in Resources */,
+				D705441614BE9EA400400E56 /* banana.jpg in Resources */,
+				D705441714BE9EA400400E56 /* kiwi.jpg in Resources */,
+				D705441814BE9EA400400E56 /* orange.jpg in Resources */,
+				D705441914BE9EA400400E56 /* watermelon.jpg in Resources */,
+				D705441E14BEA08600400E56 /* FruitDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70543D114BE91C100400E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70543E614BE91C100400E56 /* main.m in Sources */,
+				D70543EA14BE91C100400E56 /* AppDelegate.m in Sources */,
+				D70543F414BE91C100400E56 /* SecondViewController.m in Sources */,
+				D705440D14BE994100400E56 /* FruitTableViewController.m in Sources */,
+				D705441D14BEA08600400E56 /* FruitDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D70543E214BE91C100400E56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70543E314BE91C100400E56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D70543FC14BE91C100400E56 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70543FD14BE91C100400E56 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D70543FF14BE91C100400E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D705440014BE91C100400E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D705440214BE91C100400E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Codemash/Codemash-Prefix.pch";
+				INFOPLIST_FILE = "Codemash/Codemash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D705440314BE91C100400E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Codemash/Codemash-Prefix.pch";
+				INFOPLIST_FILE = "Codemash/Codemash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70543CF14BE91C100400E56 /* Build configuration list for PBXProject "Codemash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70543FF14BE91C100400E56 /* Debug */,
+				D705440014BE91C100400E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D705440114BE91C100400E56 /* Build configuration list for PBXNativeTarget "Codemash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D705440214BE91C100400E56 /* Debug */,
+				D705440314BE91C100400E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D70543CC14BE91C100400E56 /* Project object */;
+}
